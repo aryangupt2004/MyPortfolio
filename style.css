@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p{
+    color: #cccccc;
+    font-style: italic;
+}
+
+nav{
+    margin-top: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+main{
+    max-width: 900px;
+    background-color: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section{
+    margin-bottom: 3rem;
+}
+
+h2{
+    border-bottom: 2px solid #ffd700;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+article{
+    background-color: #fafafa;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #ffd700;
+    border-radius: 5px;
+}
+
+ul{
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+form{
+    background-color: #fafafa;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+
+label{
+    font-weight: bold;
+}
+
+input, textarea, button{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 1rem 0;
+    padding: 0.6rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button{
+    background-color: #222222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #ffd700;
+    color: #222222;
+}
+
+footer{
+    background-color: #222222;
+    text-align: center;
+    color: #cccccc;
+    padding: 1rem;
+}
+footer a{
+    text-decoration: none;
+    color: #ffd700;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      main {
+        margin: 1rem;
+        padding: 1rem;
+      }
+}
